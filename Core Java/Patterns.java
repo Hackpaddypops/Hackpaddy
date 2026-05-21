@@ -286,7 +286,6 @@ public static void main(String[] args) {
         System.out.println();
     }
 
-    
     System.out.println("Numbers in Rectangle:");
     n=5;
     for(int i=0;i<n;i++){
@@ -310,6 +309,15 @@ public static void main(String[] args) {
             int right = 2*n-2-j;
             int down = 2*n-2-i;
             System.out.print(n-Math.min(Math.min(top, down), Math.min(left, right)));
+        }
+        System.out.println();
+    }
+
+    System.out.println("Numbered Rectangle:");
+    n=4;
+    for(int i=n;i>0;i--){
+        for(int j = 0;j< (2*n-1);j++){
+            System.out.print(i);
         }
         System.out.println();
     }
