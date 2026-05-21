@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+    <string name="result">Result</string>
+    <string name="divide">/</string>
+    <string name="multiply">x</string>
+    <string name="subtract">-</string>
+    <string name="add">+</string>
+    <string name="number_2">Enter Number 2</string>
+    <string name="number_1">Enter Number 1</string>
+    <string name="can_t_divide_by_zero">Can\'t Divide by 0!</string>
+</resources>

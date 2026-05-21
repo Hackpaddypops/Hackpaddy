@@ -1,0 +1,52 @@
+*.iml
+
+# Ignore the .idea folder
+.idea/
+
+# Ignore the .gradle folder
+.gradle/
+
+# Ignore the .DS_Store file
+.DS_Store
+
+# Android Studio generated files and folders
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+output.json
+
+# Ignore the local.properties file
+local.properties
+
+# Ignore any files that are generated during the build process
+*.gen
+*.tmp
+
+# Ignore the proguard-rules.pro file
+proguard-rules.pro
+
+# Log/OS Files
+*.log
+
+# IntelliJ
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
