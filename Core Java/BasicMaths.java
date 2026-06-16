@@ -57,9 +57,11 @@ public class BasicMaths {
         } else {
             min = num1;
         }
-        for (int i = 1; i <= min; i++) {
+        //Better approach
+        for (int i = min; i >= 1; i--) {
             if (num1 % i == 0 && num2 % i == 0) {
                 gcd = i;
+                break;
             }
         }
         System.out.println("GCD of " + num1 + " and " + num2 + " is " + gcd);
